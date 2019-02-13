@@ -9,6 +9,7 @@
             $this->result = 0;
         }
 
+        // returns the average of true values
         function execute() { 
             $handle = fopen("../assets/tabular.csv", "r"); 
             

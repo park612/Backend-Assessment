@@ -48,15 +48,29 @@
             
             return $arr;
         } 
-
-        
-        
     }
 
+    // Extend Class
+    class Extend extends Rotate {
+        
+        // Ctor to pass parent ctor 
+        function __construct($param) {
+            parent::__construct($param);
+        }
+
+        // returns the last element in the array
+        function extend() {
+            $lastString = $this->arr[$this->arrSize - 1];           
+            return $lastString;
+        }
+    }
+    
     
     // Test function
     // echo '@@@@@@@@@@@@<br \>';
     // $obj1 = new Rotate(3);
     // var_dump($obj1->execute());
    
+    // $obj = new Extend(3);
+    // var_dump($obj->extend());
 ?>
