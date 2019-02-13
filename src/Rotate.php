@@ -50,7 +50,7 @@
         } 
     }
 
-    // Extend Class
+    // Extend Class that extends Rotate class
     class Extend extends Rotate {
         
         // Ctor to pass parent ctor 
@@ -64,7 +64,6 @@
             return $lastString;
         }
     }
-    
     
     // Test function
     // echo '@@@@@@@@@@@@<br \>';

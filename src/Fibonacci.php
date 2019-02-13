@@ -49,7 +49,6 @@
             else {
                 echo 'Invalid Range Error';
             }
-           
         }
 
         // check all the elements in the array are fibonacci or not
@@ -64,7 +63,6 @@
             if(!$this->flag) {
                 echo 'Invalid Input Error';
             }
-
         }
 
         // check the number is either fibonacci or not
@@ -99,7 +97,6 @@
 
         // set the array that starts with lowest fibonacci in the dataset
         function setFibo($num) { 
-            
             $first = 0; 
             $second = 1;
             $prev = 0;
@@ -129,7 +126,6 @@
             
             // Double check that all datas in the range of 10 int array
             $this->checkincludesAll = !array_diff($this->arr , $this->resultArray);
-          
         } 
 
     }

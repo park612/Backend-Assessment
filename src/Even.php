@@ -22,10 +22,8 @@
 
             fclose($handle); 
 
-            // echo $counter;
             return $counter;
         }
-
     }
 
     // Test function
