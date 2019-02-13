@@ -10,7 +10,7 @@
         }
 
         function execute() { 
-            $handle = fopen("../asset/tab.csv", "r"); 
+            $handle = fopen("../assets/tabular.csv", "r"); 
             
             $row = 1;
             $counter = 0;
