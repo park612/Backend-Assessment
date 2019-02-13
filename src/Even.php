@@ -11,7 +11,7 @@
             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) { 
                 $numData = count($data); #num data in line
 
-                for ($i = 0; $i < $num; $i++) { 
+                for ($i = 0; $i < $numData; $i++) { 
                     //check the number is even or not
                     if($data[$i] % 2 == 0) { 
                         //increase if number is even
